@@ -1,7 +1,12 @@
 name: Manhunt
 version: 1.0
 main: com.justintaddei.manhunt.Manhunt
-api-version: 1.17.1
+api-version: 1.17
 authors: [ justintaddei ]
 description: Manhunt by Justin Taddei
 website: justintaddei.com
+
+commands:
+  manhunt:
+    description: Sets up a new game of manhunt
+    usage: /manhunt <add|remove|start|stop> [player]
